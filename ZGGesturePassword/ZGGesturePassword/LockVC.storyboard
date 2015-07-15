@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Lock View Controller-->
+        <scene sceneID="aPr-CD-n1e">
+            <objects>
+                <viewController storyboardIdentifier="LockVC" id="sTA-CT-vQW" customClass="ZGLockViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ugl-GY-hyM"/>
+                        <viewControllerLayoutGuide type="bottom" id="R8A-AW-nNZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="he0-9W-dOl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SmO-qw-7Gu" customClass="ZGLockView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SmO-qw-7Gu" secondAttribute="height" multiplier="1:1" id="o6C-Fw-eXt"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="o6C-Fw-eXt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="o6C-Fw-eXt"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTe-4w-TZx" customClass="ZGLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtl-xL-d0S" customClass="ZGInfoView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Jtl-xL-d0S" secondAttribute="height" multiplier="1:1" id="xAE-sr-kFD"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xAE-sr-kFD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="xAE-sr-kFD"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqL-Vj-xau">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="忘记密码?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgetPwd:" destination="sTA-CT-vQW" eventType="touchUpInside" id="40d-kE-YGX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SmO-qw-7Gu" firstAttribute="leading" secondItem="he0-9W-dOl" secondAttribute="leading" id="2jf-PL-BxT"/>
+                            <constraint firstItem="DTe-4w-TZx" firstAttribute="leading" secondItem="he0-9W-dOl" secondAttribute="leading" constant="20" id="5xb-5J-aBw"/>
+                            <constraint firstAttribute="centerX" secondItem="SqL-Vj-xau" secondAttribute="centerX" id="9Bx-2b-OMd"/>
+                            <constraint firstAttribute="trailing" secondItem="SmO-qw-7Gu" secondAttribute="trailing" id="NRI-PZ-7Rc"/>
+                            <constraint firstItem="SmO-qw-7Gu" firstAttribute="top" secondItem="DTe-4w-TZx" secondAttribute="bottom" constant="20" id="O1V-fx-qz4"/>
+                            <constraint firstItem="Jtl-xL-d0S" firstAttribute="width" secondItem="SmO-qw-7Gu" secondAttribute="width" multiplier="0.2" id="RSJ-me-ngL"/>
+                            <constraint firstAttribute="centerX" secondItem="Jtl-xL-d0S" secondAttribute="centerX" id="guY-54-5eX"/>
+                            <constraint firstAttribute="trailing" secondItem="DTe-4w-TZx" secondAttribute="trailing" constant="20" id="kvx-yQ-SS4"/>
+                            <constraint firstAttribute="bottom" secondItem="SmO-qw-7Gu" secondAttribute="bottom" constant="40" id="mEB-Ny-URi"/>
+                            <constraint firstAttribute="bottom" secondItem="SqL-Vj-xau" secondAttribute="bottom" constant="10" id="r6l-4k-ZTJ"/>
+                            <constraint firstItem="DTe-4w-TZx" firstAttribute="top" secondItem="Jtl-xL-d0S" secondAttribute="bottom" constant="10" id="wce-mB-tPS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="SmO-qw-7Gu"/>
+                                <exclude reference="DTe-4w-TZx"/>
+                                <exclude reference="Jtl-xL-d0S"/>
+                                <exclude reference="SqL-Vj-xau"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="RSJ-me-ngL"/>
+                                <exclude reference="guY-54-5eX"/>
+                                <exclude reference="5xb-5J-aBw"/>
+                                <exclude reference="kvx-yQ-SS4"/>
+                                <exclude reference="wce-mB-tPS"/>
+                                <exclude reference="2jf-PL-BxT"/>
+                                <exclude reference="NRI-PZ-7Rc"/>
+                                <exclude reference="O1V-fx-qz4"/>
+                                <exclude reference="mEB-Ny-URi"/>
+                                <exclude reference="9Bx-2b-OMd"/>
+                                <exclude reference="r6l-4k-ZTJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="SmO-qw-7Gu"/>
+                                <include reference="DTe-4w-TZx"/>
+                                <include reference="Jtl-xL-d0S"/>
+                                <include reference="SqL-Vj-xau"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="RSJ-me-ngL"/>
+                                <include reference="guY-54-5eX"/>
+                                <include reference="5xb-5J-aBw"/>
+                                <include reference="kvx-yQ-SS4"/>
+                                <include reference="wce-mB-tPS"/>
+                                <include reference="2jf-PL-BxT"/>
+                                <include reference="NRI-PZ-7Rc"/>
+                                <include reference="O1V-fx-qz4"/>
+                                <include reference="mEB-Ny-URi"/>
+                                <include reference="9Bx-2b-OMd"/>
+                                <include reference="r6l-4k-ZTJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="WUD-WZ-hX1"/>
+                    <connections>
+                        <outlet property="forgetButton" destination="SqL-Vj-xau" id="nKP-aG-WjA"/>
+                        <outlet property="infoView" destination="Jtl-xL-d0S" id="0vZ-qL-yet"/>
+                        <outlet property="label" destination="DTe-4w-TZx" id="0zO-3Y-Zuf"/>
+                        <outlet property="lockView" destination="SmO-qw-7Gu" id="ekT-Q4-rkp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pKG-P2-Ihg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="281.25"/>
+        </scene>
+    </scenes>
+</document>

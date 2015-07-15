@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96CD03E1B564C0F002E25E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD03D1B564C0F002E25E2 /* main.m */; };
+		A96CD0491B564C0F002E25E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96CD0481B564C0F002E25E2 /* Images.xcassets */; };
+		A96CD04C1B564C0F002E25E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A96CD04A1B564C0F002E25E2 /* LaunchScreen.xib */; };
+		A96CD0581B564C0F002E25E2 /* ZGGesturePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0571B564C0F002E25E2 /* ZGGesturePasswordTests.m */; };
+		A96CD06A1B564C72002E25E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0661B564C72002E25E2 /* AppDelegate.m */; };
+		A96CD06B1B564C72002E25E2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0681B564C72002E25E2 /* TableViewController.m */; };
+		A96CD06C1B564C72002E25E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CD0691B564C72002E25E2 /* Main.storyboard */; };
+		A96CD06F1B564C84002E25E2 /* ZGConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD06E1B564C84002E25E2 /* ZGConstant.m */; };
+		A96CD0791B564C98002E25E2 /* ZGLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0721B564C98002E25E2 /* ZGLockView.m */; };
+		A96CD07A1B564C98002E25E2 /* ZGCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0741B564C98002E25E2 /* ZGCircleView.m */; };
+		A96CD07B1B564C98002E25E2 /* ZGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0761B564C98002E25E2 /* ZGLabel.m */; };
+		A96CD07C1B564C98002E25E2 /* ZGInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0781B564C98002E25E2 /* ZGInfoView.m */; };
+		A96CD0801B564CA9002E25E2 /* ZGLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */; };
+		A96CD0811B564CA9002E25E2 /* LockVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96CD0521B564C0F002E25E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96CD0301B564C0F002E25E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96CD0371B564C0F002E25E2;
+			remoteInfo = ZGGesturePassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96CD0381B564C0F002E25E2 /* ZGGesturePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGGesturePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96CD03C1B564C0F002E25E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96CD03D1B564C0F002E25E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A96CD0481B564C0F002E25E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A96CD04B1B564C0F002E25E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A96CD0511B564C0F002E25E2 /* ZGGesturePasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGGesturePasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96CD0561B564C0F002E25E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96CD0571B564C0F002E25E2 /* ZGGesturePasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGGesturePasswordTests.m; sourceTree = "<group>"; };
+		A96CD0651B564C72002E25E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A96CD0661B564C72002E25E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A96CD0671B564C72002E25E2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A96CD0681B564C72002E25E2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A96CD0691B564C72002E25E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A96CD06D1B564C84002E25E2 /* ZGConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGConstant.h; sourceTree = "<group>"; };
+		A96CD06E1B564C84002E25E2 /* ZGConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGConstant.m; sourceTree = "<group>"; };
+		A96CD0701B564C8D002E25E2 /* ZGLockViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLockViewDelegate.h; sourceTree = "<group>"; };
+		A96CD0711B564C98002E25E2 /* ZGLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLockView.h; sourceTree = "<group>"; };
+		A96CD0721B564C98002E25E2 /* ZGLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLockView.m; sourceTree = "<group>"; };
+		A96CD0731B564C98002E25E2 /* ZGCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCircleView.h; sourceTree = "<group>"; };
+		A96CD0741B564C98002E25E2 /* ZGCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCircleView.m; sourceTree = "<group>"; };
+		A96CD0751B564C98002E25E2 /* ZGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLabel.h; sourceTree = "<group>"; };
+		A96CD0761B564C98002E25E2 /* ZGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLabel.m; sourceTree = "<group>"; };
+		A96CD0771B564C98002E25E2 /* ZGInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGInfoView.h; sourceTree = "<group>"; };
+		A96CD0781B564C98002E25E2 /* ZGInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGInfoView.m; sourceTree = "<group>"; };
+		A96CD07D1B564CA9002E25E2 /* ZGLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLockViewController.h; sourceTree = "<group>"; };
+		A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLockViewController.m; sourceTree = "<group>"; };
+		A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LockVC.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96CD0351B564C0F002E25E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CD04E1B564C0F002E25E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96CD02F1B564C0F002E25E2 = {
+			isa = PBXGroup;
+			children = (
+				A96CD03A1B564C0F002E25E2 /* ZGGesturePassword */,
+				A96CD0541B564C0F002E25E2 /* ZGGesturePasswordTests */,
+				A96CD0391B564C0F002E25E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96CD0391B564C0F002E25E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0381B564C0F002E25E2 /* ZGGesturePassword.app */,
+				A96CD0511B564C0F002E25E2 /* ZGGesturePasswordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96CD03A1B564C0F002E25E2 /* ZGGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0641B564C5C002E25E2 /* Constant */,
+				A96CD0631B564C55002E25E2 /* Protocol */,
+				A96CD0621B564C4F002E25E2 /* View */,
+				A96CD0611B564C49002E25E2 /* Controller */,
+				A96CD0651B564C72002E25E2 /* AppDelegate.h */,
+				A96CD0661B564C72002E25E2 /* AppDelegate.m */,
+				A96CD0671B564C72002E25E2 /* TableViewController.h */,
+				A96CD0681B564C72002E25E2 /* TableViewController.m */,
+				A96CD0691B564C72002E25E2 /* Main.storyboard */,
+				A96CD0481B564C0F002E25E2 /* Images.xcassets */,
+				A96CD04A1B564C0F002E25E2 /* LaunchScreen.xib */,
+				A96CD03B1B564C0F002E25E2 /* Supporting Files */,
+			);
+			path = ZGGesturePassword;
+			sourceTree = "<group>";
+		};
+		A96CD03B1B564C0F002E25E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD03C1B564C0F002E25E2 /* Info.plist */,
+				A96CD03D1B564C0F002E25E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A96CD0541B564C0F002E25E2 /* ZGGesturePasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0571B564C0F002E25E2 /* ZGGesturePasswordTests.m */,
+				A96CD0551B564C0F002E25E2 /* Supporting Files */,
+			);
+			path = ZGGesturePasswordTests;
+			sourceTree = "<group>";
+		};
+		A96CD0551B564C0F002E25E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0561B564C0F002E25E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A96CD0611B564C49002E25E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD07D1B564CA9002E25E2 /* ZGLockViewController.h */,
+				A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */,
+				A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A96CD0621B564C4F002E25E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0711B564C98002E25E2 /* ZGLockView.h */,
+				A96CD0721B564C98002E25E2 /* ZGLockView.m */,
+				A96CD0731B564C98002E25E2 /* ZGCircleView.h */,
+				A96CD0741B564C98002E25E2 /* ZGCircleView.m */,
+				A96CD0751B564C98002E25E2 /* ZGLabel.h */,
+				A96CD0761B564C98002E25E2 /* ZGLabel.m */,
+				A96CD0771B564C98002E25E2 /* ZGInfoView.h */,
+				A96CD0781B564C98002E25E2 /* ZGInfoView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A96CD0631B564C55002E25E2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD0701B564C8D002E25E2 /* ZGLockViewDelegate.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		A96CD0641B564C5C002E25E2 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A96CD06D1B564C84002E25E2 /* ZGConstant.h */,
+				A96CD06E1B564C84002E25E2 /* ZGConstant.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96CD0371B564C0F002E25E2 /* ZGGesturePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96CD05B1B564C0F002E25E2 /* Build configuration list for PBXNativeTarget "ZGGesturePassword" */;
+			buildPhases = (
+				A96CD0341B564C0F002E25E2 /* Sources */,
+				A96CD0351B564C0F002E25E2 /* Frameworks */,
+				A96CD0361B564C0F002E25E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGGesturePassword;
+			productName = ZGGesturePassword;
+			productReference = A96CD0381B564C0F002E25E2 /* ZGGesturePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96CD0501B564C0F002E25E2 /* ZGGesturePasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96CD05E1B564C0F002E25E2 /* Build configuration list for PBXNativeTarget "ZGGesturePasswordTests" */;
+			buildPhases = (
+				A96CD04D1B564C0F002E25E2 /* Sources */,
+				A96CD04E1B564C0F002E25E2 /* Frameworks */,
+				A96CD04F1B564C0F002E25E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96CD0531B564C0F002E25E2 /* PBXTargetDependency */,
+			);
+			name = ZGGesturePasswordTests;
+			productName = ZGGesturePasswordTests;
+			productReference = A96CD0511B564C0F002E25E2 /* ZGGesturePasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96CD0301B564C0F002E25E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "盛振国";
+				TargetAttributes = {
+					A96CD0371B564C0F002E25E2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A96CD0501B564C0F002E25E2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A96CD0371B564C0F002E25E2;
+					};
+				};
+			};
+			buildConfigurationList = A96CD0331B564C0F002E25E2 /* Build configuration list for PBXProject "ZGGesturePassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96CD02F1B564C0F002E25E2;
+			productRefGroup = A96CD0391B564C0F002E25E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96CD0371B564C0F002E25E2 /* ZGGesturePassword */,
+				A96CD0501B564C0F002E25E2 /* ZGGesturePasswordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96CD0361B564C0F002E25E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CD06C1B564C72002E25E2 /* Main.storyboard in Resources */,
+				A96CD04C1B564C0F002E25E2 /* LaunchScreen.xib in Resources */,
+				A96CD0811B564CA9002E25E2 /* LockVC.storyboard in Resources */,
+				A96CD0491B564C0F002E25E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CD04F1B564C0F002E25E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96CD0341B564C0F002E25E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CD06A1B564C72002E25E2 /* AppDelegate.m in Sources */,
+				A96CD07A1B564C98002E25E2 /* ZGCircleView.m in Sources */,
+				A96CD06B1B564C72002E25E2 /* TableViewController.m in Sources */,
+				A96CD0791B564C98002E25E2 /* ZGLockView.m in Sources */,
+				A96CD06F1B564C84002E25E2 /* ZGConstant.m in Sources */,
+				A96CD03E1B564C0F002E25E2 /* main.m in Sources */,
+				A96CD07B1B564C98002E25E2 /* ZGLabel.m in Sources */,
+				A96CD07C1B564C98002E25E2 /* ZGInfoView.m in Sources */,
+				A96CD0801B564CA9002E25E2 /* ZGLockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CD04D1B564C0F002E25E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CD0581B564C0F002E25E2 /* ZGGesturePasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96CD0531B564C0F002E25E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96CD0371B564C0F002E25E2 /* ZGGesturePassword */;
+			targetProxy = A96CD0521B564C0F002E25E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96CD04A1B564C0F002E25E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96CD04B1B564C0F002E25E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96CD0591B564C0F002E25E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A96CD05A1B564C0F002E25E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96CD05C1B564C0F002E25E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGGesturePassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A96CD05D1B564C0F002E25E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGGesturePassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A96CD05F1B564C0F002E25E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZGGesturePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGGesturePassword.app/ZGGesturePassword";
+			};
+			name = Debug;
+		};
+		A96CD0601B564C0F002E25E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZGGesturePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGGesturePassword.app/ZGGesturePassword";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96CD0331B564C0F002E25E2 /* Build configuration list for PBXProject "ZGGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CD0591B564C0F002E25E2 /* Debug */,
+				A96CD05A1B564C0F002E25E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96CD05B1B564C0F002E25E2 /* Build configuration list for PBXNativeTarget "ZGGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CD05C1B564C0F002E25E2 /* Debug */,
+				A96CD05D1B564C0F002E25E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A96CD05E1B564C0F002E25E2 /* Build configuration list for PBXNativeTarget "ZGGesturePasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CD05F1B564C0F002E25E2 /* Debug */,
+				A96CD0601B564C0F002E25E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96CD0301B564C0F002E25E2 /* Project object */;
+}
