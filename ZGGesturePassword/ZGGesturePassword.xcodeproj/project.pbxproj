@@ -21,6 +21,8 @@
 		A96CD07C1B564C98002E25E2 /* ZGInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD0781B564C98002E25E2 /* ZGInfoView.m */; };
 		A96CD0801B564CA9002E25E2 /* ZGLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */; };
 		A96CD0811B564CA9002E25E2 /* LockVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */; };
+		D684E33B1C93C10300313071 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D684E33A1C93C10300313071 /* Security.framework */; };
+		D684E33F1C93C23700313071 /* ZGKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D684E33E1C93C23700313071 /* ZGKeyChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		A96CD07D1B564CA9002E25E2 /* ZGLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLockViewController.h; sourceTree = "<group>"; };
 		A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLockViewController.m; sourceTree = "<group>"; };
 		A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LockVC.storyboard; sourceTree = "<group>"; };
+		D684E33A1C93C10300313071 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D684E33D1C93C23700313071 /* ZGKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGKeyChain.h; sourceTree = "<group>"; };
+		D684E33E1C93C23700313071 /* ZGKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGKeyChain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D684E33B1C93C10300313071 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +90,11 @@
 		A96CD02F1B564C0F002E25E2 = {
 			isa = PBXGroup;
 			children = (
+				D684E33A1C93C10300313071 /* Security.framework */,
 				A96CD03A1B564C0F002E25E2 /* ZGGesturePassword */,
 				A96CD0541B564C0F002E25E2 /* ZGGesturePasswordTests */,
 				A96CD0391B564C0F002E25E2 /* Products */,
+				D684E33C1C93C1C000313071 /* FrameWorks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +158,8 @@
 				A96CD07D1B564CA9002E25E2 /* ZGLockViewController.h */,
 				A96CD07E1B564CA9002E25E2 /* ZGLockViewController.m */,
 				A96CD07F1B564CA9002E25E2 /* LockVC.storyboard */,
+				D684E33D1C93C23700313071 /* ZGKeyChain.h */,
+				D684E33E1C93C23700313071 /* ZGKeyChain.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -184,6 +194,14 @@
 				A96CD06E1B564C84002E25E2 /* ZGConstant.m */,
 			);
 			name = Constant;
+			sourceTree = "<group>";
+		};
+		D684E33C1C93C1C000313071 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FrameWorks;
+			path = ZGGesturePasswordTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +314,7 @@
 				A96CD03E1B564C0F002E25E2 /* main.m in Sources */,
 				A96CD07B1B564C98002E25E2 /* ZGLabel.m in Sources */,
 				A96CD07C1B564C98002E25E2 /* ZGInfoView.m in Sources */,
+				D684E33F1C93C23700313071 /* ZGKeyChain.m in Sources */,
 				A96CD0801B564CA9002E25E2 /* ZGLockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
