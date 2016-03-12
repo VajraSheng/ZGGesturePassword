@@ -59,16 +59,16 @@
 
 //NSMutableDictionary *usernamepasswordKVPairs = [NSMutableDictionary dictionary];
 //[usernamepasswordKVPairs setObject:mmm forKey:KEY_PASSWORD];
-//[RRYKeyChain save:KEY_USERNAME_PASSWORD data:usernamepasswordKVPairs];
+//[ZGKeyChain save:KEY_USERNAME_PASSWORD data:usernamepasswordKVPairs];
 
 //read
 
-//NSMutableDictionary *usernamepasswordKVPairs = (NSMutableDictionary *)[RRYKeyChain load:KEY_USERNAME_PASSWORD];
+//NSMutableDictionary *usernamepasswordKVPairs = (NSMutableDictionary *)[ZGKeychain load:KEY_USERNAME_PASSWORD];
 //NSLog(@"%@",[usernamepasswordKVPairs objectForKey:KEY_PASSWORD]);
 
 //delete
 
-//[RRYKeyChain delete:KEY_USERNAME_PASSWORD];
+//[ZGKeyChain delete:KEY_USERNAME_PASSWORD];
 
 
 @end
